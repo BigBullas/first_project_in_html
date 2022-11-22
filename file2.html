@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- кодировка -->
+    <meta charset="UTF-8">
+    <!-- для старых браузеров -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- для открытия сайта через разные устройства -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- строки для роботов поисковиков (описание и ключевые слова) -->
+    <meta name="description" content="Это базовый курс по html">
+    <meta name="keywords" content="html, course, css, tags">
+    <title>HTML course</title>
+    <style>
+        .header {
+            border-bottom: 3px solid grey;
+        }
+        .card {
+            background-color: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .color {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tags in text</h1>
+
+    <h2>Hello HTML!</h2>
+    <!-- абзац: <p> -->
+    <!-- <strong> - жирный шрифт -->
+    <!-- <em> - наклонный шрифт -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, 
+        consequatur? <strong>Saepe <em>eaque</em> assumenda</strong> ipsam ipsa magnam deleniti 
+        facere ducimus? Necessitatibus!</p>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!-- горизонтальная линия <hr> -->
+    <hr>
+    <!-- <br> - переход на следющий абзац (enter) -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Dolorem, <em>sed a provident</em>  dicta ullam <br><br> 
+        aspernatur totam impedit.
+    </p>
+    
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eveniet, similique.</p>
+
+    <hr>
+    <br>
+    <header id="header" class="header">
+        <h1>Classes</h1>
+    </header>
+    <!-- Аналогично этому: -->
+    <!-- <div id="header" class="header">
+        <h1>Classes</h1>
+    </div> -->
+
+    <nav id="navigation" >
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+    </nav>
+    <!-- Аналогично этому: -->
+    <!-- <div id="navigation" >
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+    </div> -->
+
+    <aside>
+       <!-- Для боковых меню -->
+    </aside>
+    <hr>
+    <section>
+        <article id="block1" class="card header">
+            <h3>Block 1</h3>
+            <p>Lorem <div class="color">вот так с div</div> consectetur adipisicing elit.
+                Molestiae adipisci, accusamus enim perspiciatis non ab
+                odio omnis et reiciendis totam.</p>
+        </article>
+        <article id="block2" class="card">
+            <h3>Block 2</h3>
+            <p>
+                Lorem <span class="color">а вот так со span</span> consectetur adipisicing elit. 
+                Dolore quod laudantium fuga. Laborum, tempora fugit!
+            </p>
+        </article>
+    </section>
+    <!-- Аналогично этому: -->
+    <!-- <div id="block1" class="card header">
+        <h3>Block 1</h3>
+        <p>Lorem <div class="color">вот так с div</div> consectetur adipisicing elit.
+            Molestiae adipisci, accusamus enim perspiciatis non ab
+            odio omnis et reiciendis totam.</p>
+    </div>
+    <div id="block2" class="card">
+        <h3>Block 2</h3>
+        <p>
+            Lorem <span class="color">а вот так со span</span> consectetur adipisicing elit. 
+            Dolore quod laudantium fuga. Laborum, tempora fugit!
+        </p>
+    </div> -->
+    <hr>
+    <foote id="footer">
+        <ul>
+            <li>Instagram</li>
+            <li>Telegram</li>
+            <li>Youtube</li>
+        </ul>
+    </foote>
+    <!-- Аналогично этому: -->
+    <!-- <div id="footer">
+        <ul>
+            <li>Instagram</li>
+            <li>Telegram</li>
+            <li>Youtube</li>
+        </ul>
+    </div> -->
+
+
+</body>
+</html>
